@@ -3,5 +3,5 @@
 
 
 clear && 
-gcc example.c -o example  ./cpg/cpg.c -I ./cfg/libpq -lpq &&
-sudo chmod +x example && ./example
+##gcc example.c -o example  ./cpg/cpg.c -I ./cpg/libpq -lpq &&
+make && ./example && cat out.html

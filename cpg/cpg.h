@@ -26,8 +26,13 @@ void ConnectPg();
 void ClearPg();
 
 // execute sql commands
-void Query(const char* query );
+void Query(const char* query ,int i ,int j);
 
 
+void FileOut();
+
+void Print(PGresult * res);
+
+void QueryPrint(const char* query);
 
 #endif
